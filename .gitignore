@@ -1,0 +1,12 @@
+# Project exclude paths
+/springcloud-consumer-management/springcloud-consumer-6081/target/
+/springcloud-consumer-management/springcloud-ribbon-consumer-6082/target/
+/springcloud-eureka-management/springcloud-eureka-7081/target/
+/springcloud-eureka-management/springcloud-eureka-7082/target/
+/springcloud-eureka-management/springcloud-eureka-7083/target/
+/springcloud-management/springcloud-management-mapper/target/
+/springcloud-management/springcloud-management-model/target/
+/springcloud-management/springcloud-management-service/target/
+/springcloud-provider-management/springcloud-provider-8081/target/
+/springcloud-provider-management/springcloud-provider-8082/target/
+/springcloud-provider-management/springcloud-provider-8083/target/
