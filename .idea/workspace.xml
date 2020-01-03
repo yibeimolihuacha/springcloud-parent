@@ -2,55 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="033916cd-3b14-42bd-890b-7a8bfeb887fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-management/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-management/springcloud-consumer-6081/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-management/springcloud-consumer-6081/src/main/java/com/aaa/lzh/springcloud/ApplicationRun6081.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-management/springcloud-consumer-6081/src/main/java/com/aaa/lzh/springcloud/config/RestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-management/springcloud-consumer-6081/src/main/java/com/aaa/lzh/springcloud/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-management/springcloud-consumer-6081/src/main/resources/config/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-management/springcloud-ribbon-consumer-6082/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-management/springcloud-ribbon-consumer-6082/src/main/java/com/aaa/lzh/ApplicationRun6082.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-management/springcloud-ribbon-consumer-6082/src/main/java/com/aaa/lzh/springcloud/config/RestConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-management/springcloud-ribbon-consumer-6082/src/main/java/com/aaa/lzh/springcloud/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-management/springcloud-ribbon-consumer-6082/src/main/resources/config/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-management/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-management/springcloud-eureka-7081/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-management/springcloud-eureka-7081/src/main/java/com/aaa/lzh/springcloud/ApplicationRun7081.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-management/springcloud-eureka-7081/src/main/resources/config/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-management/springcloud-eureka-7082/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-management/springcloud-eureka-7082/src/main/java/com/aaa/lzh/springcloud/ApplicationRun7082.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-management/springcloud-eureka-7082/src/main/resources/config/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-management/springcloud-eureka-7083/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-management/springcloud-eureka-7083/src/main/java/com/aaa/lzh/springcloud/ApplicationRun7083.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-eureka-management/springcloud-eureka-7083/src/main/resources/config/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-management/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-management/springcloud-management-mapper/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-management/springcloud-management-mapper/src/main/java/com/aaa/lzh/springcloud/mapper/BookMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-management/springcloud-management-mapper/src/main/resources/mapper/BookMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-management/springcloud-management-model/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-management/springcloud-management-model/src/main/java/com/aaa/lzh/springcloud/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-management/springcloud-management-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-management/springcloud-management-service/src/main/java/com/aaa/lzh/springcloud/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-management/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-management/springcloud-provider-8081/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-management/springcloud-provider-8081/src/main/java/com/aaa/lzh/springcloud/ApplicationRun8081.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-management/springcloud-provider-8081/src/main/java/com/aaa/lzh/springcloud/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-management/springcloud-provider-8081/src/main/resources/config/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-management/springcloud-provider-8082/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-management/springcloud-provider-8082/src/main/java/com/aaa/lzh/springcloud/ApplicationRun8082.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-management/springcloud-provider-8082/src/main/java/com/aaa/lzh/springcloud/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-management/springcloud-provider-8082/src/main/resources/config/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-management/springcloud-provider-8083/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-management/springcloud-provider-8083/src/main/java/com/aaa/lzh/springcloud/ApplicationRun8083.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-management/springcloud-provider-8083/src/main/java/com/aaa/lzh/springcloud/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-provider-management/springcloud-provider-8083/src/main/resources/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,12 +201,24 @@
       <workItem from="1577962730579" duration="7757000" />
       <workItem from="1578015968691" duration="15000" />
       <workItem from="1578031437895" duration="5552000" />
-      <workItem from="1578037197850" duration="8326000" />
+      <workItem from="1578037197850" duration="8993000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化">
+      <created>1578048845677</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578048845677</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="75" key="#Project_Structure" timestamp="1577967892689">
@@ -273,6 +237,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="373" y="333" width="655" height="246" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1536.834@0.0.1536.834" timestamp="1578036223151" />
+    <state x="74" y="9" key="CommitChangelistDialog2" timestamp="1578049350572">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="74" y="9" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1578049350572" />
     <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1578048518298">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -345,6 +313,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="580" y="97" key="SpringBootCustomization/0.0.1536.834@0.0.1536.834" timestamp="1578036833290" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1578048852657">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1578048852657" />
     <state x="449" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1578031574891">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
