@@ -13,6 +13,7 @@
         <module>springcloud-management-mapper</module>
         <module>springcloud-management-model</module>
         <module>springcloud-management-service</module>
+        <module>springcloud-management-api</module>
     </modules>
     <artifactId>springcloud-management</artifactId>
 

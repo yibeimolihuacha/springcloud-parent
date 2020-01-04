@@ -10,9 +10,11 @@
         <module name="springcloud-eureka-7083" />
         <module name="springcloud-eureka-7082" />
         <module name="springcloud-eureka-7081" />
+        <module name="springcloud-consumer-feign-6083" />
         <module name="springcloud-consumer-6081" />
         <module name="springcloud-provider-8083" />
         <module name="springcloud-ribbon-consumer-6082" />
+        <module name="springcloud-management-api" />
         <module name="springcloud-management-mapper" />
         <module name="springcloud-management-model" />
         <module name="springcloud-provider-8082" />
