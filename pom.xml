@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.aaa.lzh.springcloud</groupId>
-    <artifactId>springcloud+parent</artifactId>
+    <artifactId>springcloud-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>springcloud-provider-management</module>

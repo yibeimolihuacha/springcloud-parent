@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="033916cd-3b14-42bd-890b-7a8bfeb887fe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-management/springcloud-consumer-feign-6083/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-management/springcloud-consumer-feign-6083/src/main/java/com/aaa/lzh/springcloud/ApplicationRun6083.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-management/springcloud-consumer-feign-6083/src/main/java/com/aaa/lzh/springcloud/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-management/springcloud-consumer-feign-6083/src/main/resources/config/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-management/springcloud-consumer-feign-6083/target/classes/com/aaa/lzh/springcloud/ApplicationRun6083.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-management/springcloud-consumer-feign-6083/target/classes/com/aaa/lzh/springcloud/controller/BookController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-consumer-management/springcloud-consumer-feign-6083/target/classes/config/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-management/springcloud-management-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-management/springcloud-management-api/src/main/java/com/aaa/lzh/springcloud/service/ISpringCloudService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-management/springcloud-management-api/target/classes/com/aaa/lzh/springcloud/service/ISpringCloudService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-consumer-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-consumer-management/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-eureka-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-eureka-management/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springcloud-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-management/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-provider-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-provider-management/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +103,53 @@
       <toRun name="ApplicationRun7082" type="SpringBootApplicationConfigurationType" />
       <toRun name="ApplicationRun7083" type="SpringBootApplicationConfigurationType" />
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="springcloud-parent" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="springcloud-parent" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ApplicationRun6082" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springcloud-ribbon-consumer-6082" />
@@ -245,11 +285,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -274,7 +309,8 @@
       <workItem from="1578015968691" duration="15000" />
       <workItem from="1578031437895" duration="5552000" />
       <workItem from="1578037197850" duration="11025000" />
-      <workItem from="1578098264998" duration="11763000" />
+      <workItem from="1578098264998" duration="12255000" />
+      <workItem from="1578128237423" duration="141000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1578048845677</created>
@@ -304,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578102580359</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="springcloud-dome">
+      <created>1578127787533</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578127787533</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +358,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -325,7 +370,8 @@
     <MESSAGE value="初始化" />
     <MESSAGE value="Randome源码分析" />
     <MESSAGE value="111" />
-    <option name="LAST_COMMIT_MESSAGE" value="111" />
+    <MESSAGE value="springcloud-dome" />
+    <option name="LAST_COMMIT_MESSAGE" value="springcloud-dome" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="75" key="#Notifications" timestamp="1578102612777">
@@ -348,14 +394,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="373" y="333" width="655" height="246" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.0.1536.834@0.0.1536.834" timestamp="1578036223151" />
-    <state x="168" y="18" key="CommitChangelistDialog2" timestamp="1578121449438">
+    <state x="167" y="18" key="CommitChangelistDialog2" timestamp="1578127783833">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="168" y="18" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1578121449438" />
-    <state x="0" y="65" key="DiffContextDialog" timestamp="1578121445306">
+    <state x="167" y="18" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1578127783833" />
+    <state x="0" y="65" key="DiffContextDialog" timestamp="1578127757913">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="0" y="65" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1578121445306" />
+    <state x="0" y="65" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1578127757913" />
     <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1578127450043">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -440,10 +486,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="449" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1578031574891" />
-    <state x="377" y="0" width="831" height="834" key="find.popup" timestamp="1578040799031">
+    <state x="377" y="0" width="831" height="834" key="find.popup" timestamp="1578128334092">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="377" y="0" width="831" height="834" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1578040799031" />
+    <state x="377" y="0" width="831" height="834" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1578128334092" />
     <state x="346" y="207" key="new project wizard" timestamp="1578121130494">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
