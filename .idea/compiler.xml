@@ -6,17 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springcloud-consumer-6081" />
+        <module name="springcloud-management-service" />
         <module name="springcloud-eureka-7083" />
         <module name="springcloud-eureka-7082" />
         <module name="springcloud-eureka-7081" />
-        <module name="springcloud-provider-8081" />
-        <module name="springcloud-management-service" />
-        <module name="springcloud-management-model" />
-        <module name="springcloud-management-mapper" />
+        <module name="springcloud-consumer-6081" />
         <module name="springcloud-provider-8083" />
-        <module name="springcloud-provider-8082" />
         <module name="springcloud-ribbon-consumer-6082" />
+        <module name="springcloud-management-mapper" />
+        <module name="springcloud-management-model" />
+        <module name="springcloud-provider-8082" />
+        <module name="springcloud-provider-8081" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
