@@ -1,9 +1,15 @@
 package com.aaa.lzh.springcloud.service;
 
 
+import com.aaa.lzh.springcloud.config.MultipartSupportConfig;
 import com.aaa.lzh.springcloud.model.Book;
 import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestPart;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;
 
@@ -47,9 +53,15 @@ import java.util.List;
  *                     }
  *
  */
-@FeignClient(value = "BOOK-PROVIDER")
+@FeignClient(value = "BOOK-PROVIDER",configuration = MultipartSupportConfig.class)
 public interface ISpringCloudService {
 
     @GetMapping("/all")
     List<Book> sleectAllBooks();
+
+
+    @RequestMapping(method = RequestMethod.POST, value = "/add",
+            produces = {MediaType.APPLICATION_JSON_UTF8_VALUE},
+            consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
+    String addAim(@RequestPart("file") MultipartFile file);
 }

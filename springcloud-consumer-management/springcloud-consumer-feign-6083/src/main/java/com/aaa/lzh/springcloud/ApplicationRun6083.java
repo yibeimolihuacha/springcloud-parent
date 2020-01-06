@@ -20,7 +20,7 @@ import java.util.List;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
-public class ApplicationRun6083 {
+public class  ApplicationRun6083 {
     public static void main(String[] args) {
         SpringApplication.run(ApplicationRun6083.class,args);
     }

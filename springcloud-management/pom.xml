@@ -14,6 +14,7 @@
         <module>springcloud-management-model</module>
         <module>springcloud-management-service</module>
         <module>springcloud-management-api</module>
+        <module>springcloud-management-untils</module>
     </modules>
     <artifactId>springcloud-management</artifactId>
 
