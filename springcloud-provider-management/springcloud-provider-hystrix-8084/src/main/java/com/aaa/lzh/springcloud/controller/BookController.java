@@ -2,9 +2,13 @@ package com.aaa.lzh.springcloud.controller;
 
 import com.aaa.lzh.springcloud.model.Book;
 import com.aaa.lzh.springcloud.service.BookService;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -12,7 +16,7 @@ import java.util.List;
  * @Date: 2020/1/7
  * @Description:
  */
-
+@RestController
 public class BookController {
     @Autowired
     private BookService bookService;
@@ -36,17 +40,49 @@ public class BookController {
  *                                  OrderController
  *                                  --->把所有的controller的备用方法全部封装到一个类中去
 */
-    @GetMapping("/all")
-    public List<Book> selectAllBooks() throws Exception {
-        List<Book> bookList = bookService.selectAllBooks();
-        if (bookList.size() > 0) {
-        //说明数据库中有数据，有数据抛出异常
-            throw new Exception("这是抛出的异常测试");
-        }
-        return bookList;
-    }
-    
-        /*public List<Book> selectAllFallBack() {
+
+    /**
+     *
+     * @return
+     * @throws Exception
+     *     @HystrixCommand(
+     *             commandKey = "helloCommand",//缺省为方法名
+     *             threadPoolKey = "helloPool",//缺省为类名
+     *             fallbackMethod = "fallbackMethod",//指定降级方法，在熔断和异常时会走降级方法
+     *             commandProperties = {
+     *                     //超时时间
+     *                    @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "1000")
+     *             },
+     *     超时后进行隔离
+     *             threadPoolProperties = {
+     *                     //并发，缺省为10
+     *                     @HystrixProperty(name = "coreSize", value = "5")
+     *     当线程大量并发进入熔断
+     *             }
+     *     )
+     */
+
+@GetMapping("/all")
+
+@HystrixCommand(fallbackMethod = "selectAllFallBack", commandProperties = {
+        @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "1000")
+}, threadPoolProperties = {
+
+        //并发，缺省为10
+        @HystrixProperty(name = "coreSize", value = "1")
+}
+)
+public List<Book> selectAllBooks() throws Exception {
+    List<Book> bookList = bookService.selectAllBooks();
+    Thread.sleep(2000);
+//        if (bookList.size() > 0) {
+//        //说明数据库中有数据，有数据抛出异常
+//            throw new Exception("这是抛出的异常测试");
+//        }
+    return bookList;
+}
+
+    public List<Book> selectAllFallBack() {
         List<Book> bookList = new ArrayList<Book>();
         Book book = new Book();
         book.setId(20000L);
@@ -54,5 +90,5 @@ public class BookController {
         book.setBookPrice(11111111.2);
         bookList.add(book);
         return bookList;
-    }*/
+    }
 }
