@@ -13,8 +13,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>springcloud-consumer-6081</module>
-        <module>springcloud-ribbon-consumer-6082</module>
+        <module>springcloud-consumer-ribbon-6082</module>
         <module>springcloud-consumer-feign-6083</module>
+        <module>springcloud-consumer-hystrix-6084</module>
     </modules>
 
     <dependencies>

@@ -13,6 +13,7 @@
         <module>springcloud-provider-8081</module>
         <module>springcloud-provider-8082</module>
         <module>springcloud-provider-8083</module>
+        <module>springcloud-provider-hystrix-8084</module>
     </modules>
 
     <artifactId>springcloud-provider-management</artifactId>

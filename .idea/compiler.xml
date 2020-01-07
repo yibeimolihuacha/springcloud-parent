@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-consumer-6081" />
-        <module name="springcloud-ribbon-consumer-6082" />
+        <module name="springcloud-consumer-ribbon-6082" />
         <module name="springcloud-management-service" />
         <module name="springcloud-management-mapper" />
         <module name="springcloud-management-api" />
@@ -16,9 +16,11 @@
         <module name="springcloud-provider-8083" />
         <module name="springcloud-provider-8082" />
         <module name="springcloud-provider-8081" />
+        <module name="springcloud-provider-hystrix-8084" />
         <module name="springcloud-eureka-7083" />
         <module name="springcloud-eureka-7082" />
         <module name="springcloud-eureka-7081" />
+        <module name="springcloud-consumer-hystrix-6084" />
         <module name="springcloud-consumer-feign-6083" />
       </profile>
     </annotationProcessing>

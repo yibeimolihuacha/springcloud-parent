@@ -17,7 +17,7 @@ import java.util.List;
 @RestController
 public class BookController {
 
-    private static final String PROVIDER_URL = "http://localhost:8081/all";
+    private static final String PROVIDER_URL = "http://localhost:8081springcloud-parent";
     @Autowired
     private RestTemplate restTemplate;
 

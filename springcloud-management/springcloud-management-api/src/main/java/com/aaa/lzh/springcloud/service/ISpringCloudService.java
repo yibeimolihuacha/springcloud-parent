@@ -2,6 +2,7 @@ package com.aaa.lzh.springcloud.service;
 
 
 import com.aaa.lzh.springcloud.config.MultipartSupportConfig;
+import com.aaa.lzh.springcloud.fallback.ISpringCLoudFallbackFactory;
 import com.aaa.lzh.springcloud.model.Book;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.MediaType;
@@ -57,7 +58,7 @@ import java.util.List;
 public interface ISpringCloudService {
 
     @GetMapping("/all")
-    List<Book> sleectAllBooks();
+    List<Book> selectAllBooks();
 
 
     @RequestMapping(method = RequestMethod.POST, value = "/add",

@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springcloud-ribbon-consumer-6082</artifactId>
+    <artifactId>springcloud-consumer-hystrix-6084</artifactId>
 
     <dependencies>
         <dependency>
@@ -17,8 +17,9 @@
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+            <groupId>com.aaa.lzh.springcloud</groupId>
+            <artifactId>springcloud-management-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>

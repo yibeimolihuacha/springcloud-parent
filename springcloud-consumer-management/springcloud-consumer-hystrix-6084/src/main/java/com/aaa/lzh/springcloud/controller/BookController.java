@@ -22,17 +22,12 @@ import java.util.List;
 @RestController
 public class BookController {
     @Autowired
-    private ISpringCloudService iSpringCloudService;
+    private ISpringCloudHystrixService iSpringCloudHystrixService;
 
     @GetMapping("/all")
     public List<Book> selectAllBooks() {
-        return iSpringCloudService.selectAllBooks();
+        return iSpringCloudHystrixService.selectAllBooks();
     }
 
-    @PostMapping("/add")
-    public String addim(@RequestParam("file") MultipartFile file) {
-        String addim = iSpringCloudService.addAim(file);
-        return addim;
-    }
 
 }
