@@ -9,25 +9,30 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springcloud-consumer-management</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>springcloud-consumer-6081</module>
-        <module>springcloud-consumer-ribbon-6082</module>
-        <module>springcloud-consumer-feign-6083</module>
-        <module>springcloud-consumer-hystrix-6084</module>
-        <module>springcloud-consumber-zipkin-6085</module>
-    </modules>
+    <artifactId>springcloud-zipkin-management-4081</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>com.aaa.lzh.springcloud</groupId>
-            <artifactId>springcloud-management-model</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-server</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.apache.logging.log4j</groupId>
+                    <artifactId>log4j-slf4j-impl</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>io.zipkin.java</groupId>
+            <artifactId>zipkin-autoconfigure-ui</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
     </dependencies>
 

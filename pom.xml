@@ -12,6 +12,8 @@
         <module>springcloud-consumer-management</module>
         <module>springcloud-eureka-management</module>
         <module>springcloud-management</module>
+        <module>springcloud-zipkin-management-4081</module>
+        <module>springcloud-zuul-management-5081</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -75,5 +77,4 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
 </project>

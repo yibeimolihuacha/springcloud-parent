@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-provider-zipkin-8085" />
         <module name="springcloud-consumer-6081" />
         <module name="springcloud-consumer-ribbon-6082" />
         <module name="springcloud-management-service" />
         <module name="springcloud-management-mapper" />
         <module name="springcloud-management-api" />
+        <module name="springcloud-zuul-management-5081" />
         <module name="springcloud-management-model" />
         <module name="springcloud-management-untils" />
         <module name="springcloud-provider-8083" />
@@ -20,8 +22,10 @@
         <module name="springcloud-eureka-7083" />
         <module name="springcloud-eureka-7082" />
         <module name="springcloud-eureka-7081" />
+        <module name="springcloud-consumber-zipkin-6085" />
         <module name="springcloud-consumer-hystrix-6084" />
         <module name="springcloud-consumer-feign-6083" />
+        <module name="springcloud-zipkin-management-4081" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
