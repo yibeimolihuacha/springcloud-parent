@@ -14,6 +14,8 @@
         <module>springcloud-management</module>
         <module>springcloud-zipkin-management-4081</module>
         <module>springcloud-zuul-management-5081</module>
+        <module>springcloud-config-client-management-3082</module>
+        <module>springcloud-config-server-management-3081</module>
     </modules>
     <packaging>pom</packaging>
 
